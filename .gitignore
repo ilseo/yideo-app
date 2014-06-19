@@ -1,36 +1,38 @@
-# Windows image file caches
-Thumbs.db
-ehthumbs.db
+lib-cov
+*.seed
+*.log
+*.csv
+*.dat
+*.out
+*.pid
+*.gz
 
-# Folder config file
-Desktop.ini
+.idea/
 
-# Recycle Bin used on file shares
-$RECYCLE.BIN/
+node_modules/
+src/app/vendor
 
-# Windows Installer files
-*.cab
-*.msi
-*.msm
-*.msp
+build/
 
-# =========================
-# Operating System Files
-# =========================
+pids
+logs
+results
 
-# OSX
-# =========================
+npm-debug.log
 
-.DS_Store
-.AppleDouble
-.LSOverride
+app.nw
 
-# Icon must ends with two \r.
-Icon
+.sass-cache
+*-ck.js
+*.srt
+*.DS_Store
 
-# Thumbnails
-._*
+# vim swap files
+*.swp
 
-# Files that might appear on external disk
-.Spotlight-V100
-.Trashes
+src/app/css/app.css
+*.sublime-*
+dist/windows/*.exe
+*.bat
+*.db
+*.json
